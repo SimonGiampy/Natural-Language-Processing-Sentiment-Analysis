@@ -1,0 +1,9 @@
+Dataset: The dataset consist of short conversation passages (of 3 to 5 utterances each), each
+labelled with an emotion.
+- Task: The original task on this dataset was to generate responses in the dialogue that respect
+the target emotion, but the dataset could also be used for sentiment analysis: i.e. to identify the
+emotion associated with each utterance in the dialogue.
+- Hints and suggestions: You could apply various classifiers for the sentiment analysis task
+including Transformer based models like BERT. Does knowing the previous (or subsequent)
+utterance improve the classifier performance? Note also that we will demonstrate text
+generation techniques in the latter practical sessions of the course.
